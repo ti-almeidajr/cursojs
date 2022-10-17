@@ -21,9 +21,8 @@
     <h1>olá, mundo!</h1>
     <p>Já me livrei da maldição</p>
     <script>
-        window.alert('Minha primeira mensagem!') // Janela de alerta
-        window.confirm('Está gostando de JS?') // Janela de confirmação
-        window.prompt('Qual seu nome?') //Pergunta o nome
+        var nome = window.prompt('Qual seu nome?') //variável NOME recebe o que for digitado no PROMPT
+        window.alert('É um grande prazer em te conhecer, ' + nome + '!') // + Concatena as strings
     </script>
 </body>
 </html>
